@@ -1,0 +1,41 @@
+
+body {
+    background:linear-gradient(90deg, white,grey);
+    background-repeat: no-repeat;
+}
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+._container {
+    
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 50;
+}
+
+.header_container {
+    padding: 0 30px;
+    display: flex;
+    font-size: 32px;
+    margin-top: 25px;
+    border-bottom: 5px solid rgba(201, 198, 198, 0.128);
+    align-items: center;
+    color: inherit;
+}
+
+@media (max-width: 767px) {
+    .header_container{
+        font-size: 24px;
+    }
+}
+@media (max-width: 481px) {
+    .header_container{
+        font-size: 16px;
+    }
+}
+
